@@ -1,5 +1,5 @@
 # sliding_underline_menu
-simple underline menu that uses css and jQuery
+simple underline menu slider that uses css and jQuery
 
 See it in action here:
 
