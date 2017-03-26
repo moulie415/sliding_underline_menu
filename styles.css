@@ -1,0 +1,40 @@
+div {
+	float: left;
+}
+
+ul li {
+	display: inline;
+}
+
+a {
+	color: #000;
+	font-family: "PostGrotesk-Book";
+	display: inline-block;
+	padding: 5px 0;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+hr {
+	height: 2px;
+	width: 45%;
+	margin: 0;
+	background: rgba(247, 85, 97,1);
+	border: none;
+	transition: .3s ease-in-out;
+}
+
+li:nth-child(1):hover ~ hr {
+	margin-left: 0% !important;
+	width: 45% !important;
+
+}
+li:nth-child(2):hover ~ hr {
+	margin-left: 55%;
+}
+
+li:nth-child(2).active ~ hr {
+	margin-left: 55%;
+
+}
+
